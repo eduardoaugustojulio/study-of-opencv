@@ -1,0 +1,1 @@
+/home/geckos/Documents/study-of-opencv/tests/segmentation/build/CMakeFiles/segmentation.dir
