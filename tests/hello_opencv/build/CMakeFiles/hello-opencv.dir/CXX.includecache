@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/geckos/Documents/study-of-opencv/tests/hello_opencv/src/main.cpp
+/home/eduardo/Documents/study-of-opencv/tests/hello_opencv/src/main.cpp
 iostream
 -
 opencv2/opencv.hpp

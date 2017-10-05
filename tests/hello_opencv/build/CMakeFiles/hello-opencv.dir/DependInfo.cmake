@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/geckos/Documents/study-of-opencv/tests/hello_opencv/src/main.cpp" "/home/geckos/Documents/study-of-opencv/tests/hello_opencv/build/CMakeFiles/hello-opencv.dir/src/main.cpp.o"
+  "/home/eduardo/Documents/study-of-opencv/tests/hello_opencv/src/main.cpp" "/home/eduardo/Documents/study-of-opencv/tests/hello_opencv/build/CMakeFiles/hello-opencv.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

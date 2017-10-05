@@ -1,4 +1,4 @@
-# Install script for directory: /home/geckos/Documents/study-of-opencv/tests/hello_opencv
+# Install script for directory: /home/eduardo/Documents/study-of-opencv/tests/hello_opencv
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/geckos/Documents/study-of-opencv/tests/hello_opencv/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/eduardo/Documents/study-of-opencv/tests/hello_opencv/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
