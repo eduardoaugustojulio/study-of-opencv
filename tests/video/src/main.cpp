@@ -36,14 +36,14 @@ int main(const int argc, const char **argv)
         cv::Sobel(frame.second, grad.second, CV_32F, 0, 1, -1);
         cv::subtract(grad.first, grad.second, frame.second);
         cv::convertScaleAbs(frame.second, frame.second);
-        cv::blur(frame.second, frame.second, cv::Point(9,9));
+        cv::blur(frame.second, frame.second, cv::Point(10,10));
         cv::threshold(frame.second, frame.second, threshold_value, 225,cv::THRESH_BINARY);
         cv::imshow("binaria",frame.second);
 
 
         cv::morphologyEx(frame.second, frame.second, cv::MORPH_CLOSE, cv::getStructuringElement(cv::MORPH_RECT, cv::Point(21,7)));
-        cv::erode(frame.second, frame.second,  4);
-        cv::dilate(frame.second, frame.second, 4);
+        cv::erode(frame.second, frame.second,  2);
+        cv::dilate(frame.second, frame.second, 2);
         cv::findContours(frame.second, contours, hierarchy , cv::RETR_CCOMP, cv::CHAIN_APPROX_TC89_L1, cv::Point(0, 0));
 
         std::vector<std::vector<cv::Point>> contours_poly(contours.size());
