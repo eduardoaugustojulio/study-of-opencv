@@ -1,0 +1,3 @@
+/home/eduardo/Documents/study-of-opencv/tests/find_barcode/build/CMakeFiles/edit_cache.dir
+/home/eduardo/Documents/study-of-opencv/tests/find_barcode/build/CMakeFiles/find-barcode.dir
+/home/eduardo/Documents/study-of-opencv/tests/find_barcode/build/CMakeFiles/rebuild_cache.dir

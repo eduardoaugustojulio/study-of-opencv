@@ -1,3 +1,0 @@
-/home/eduardo/Documents/study-of-opencv/tests/false-colors/build/CMakeFiles/edit_cache.dir
-/home/eduardo/Documents/study-of-opencv/tests/false-colors/build/CMakeFiles/false-color.dir
-/home/eduardo/Documents/study-of-opencv/tests/false-colors/build/CMakeFiles/rebuild_cache.dir
