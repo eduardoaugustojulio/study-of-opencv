@@ -95,6 +95,7 @@ namespace csi_cv
 				object.push_back( key_points.first[ better_matches[i].queryIdx ].pt );
 				scene.push_back( key_points.second[ better_matches[i].trainIdx ].pt );
 			}
+			
 
 			if(!object.empty() && !scene.empty() && better_matches.size() > 4){
 				cv::Mat homography = cv::findHomography(object, scene, cv::RANSAC );
@@ -106,20 +107,21 @@ namespace csi_cv
 
 				cv::perspectiveTransform(object_corners, scene_corners, homography);
 
-				cv::line(image.second,  scene_corners[0] + cv::Point2f(image.first.cols, 0), scene_corners[1] + cv::Point2f(image.first.cols, 0), 	cv::Scalar(0,255,0), 4 );
-				cv::line(image.second,  scene_corners[1] + cv::Point2f(image.first.cols, 0), scene_corners[2] + cv::Point2f(image.first.cols, 0), 	cv::Scalar(0,255,0), 4 );
-				cv::line(image.second,  scene_corners[2] + cv::Point2f(image.first.cols, 0), scene_corners[3] + cv::Point2f(image.first.cols, 0), 	cv::Scalar(0,255,0), 4 );
-				cv::line(image.second,  scene_corners[3] + cv::Point2f(image.first.cols, 0), scene_corners[0] + cv::Point2f(image.first.cols, 0), 	cv::Scalar(0,255,0), 4 );
+				cv::line(image.second,  scene_corners[0] , scene_corners[1] , 	cv::Scalar(0,255,0), 4 );
+				cv::line(image.second,  scene_corners[1] , scene_corners[2] , 	cv::Scalar(0,255,0), 4 );
+				cv::line(image.second,  scene_corners[2] , scene_corners[3] , 	cv::Scalar(0,255,0), 4 );
+				cv::line(image.second, scene_corners[3]  , scene_corners[0] , 	cv::Scalar(0,255,0), 4 );
 
 				cv::imshow("result", image.second);
 			}
 
+			cv::Mat output;
+			cv::drawMatches(image.first, key_points.first, image.second, key_points.second, better_matches, output);
+
 
 			auto end = std::chrono::time_point_cast<std::chrono::milliseconds>(std::chrono::steady_clock::now()).time_since_epoch().count();
 			std::cout << "# Total time elapsed " << (end - start) << " msec" << std::endl;
-
-			cv::Mat output;
-			cv::drawMatches(image.first, key_points.first, image.second, key_points.second, better_matches, output);
+			
 			cv::imshow("output", output);
 		}
 		}
