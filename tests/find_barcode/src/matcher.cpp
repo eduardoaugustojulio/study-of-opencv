@@ -110,7 +110,7 @@ namespace csi_cv
 				cv::line(image.second,  scene_corners[0] , scene_corners[1] , 	cv::Scalar(0,255,0), 4 );
 				cv::line(image.second,  scene_corners[1] , scene_corners[2] , 	cv::Scalar(0,255,0), 4 );
 				cv::line(image.second,  scene_corners[2] , scene_corners[3] , 	cv::Scalar(0,255,0), 4 );
-				cv::line(image.second, scene_corners[3]  , scene_corners[0] , 	cv::Scalar(0,255,0), 4 );
+				cv::line(image.second,  scene_corners[3]  , scene_corners[0] , 	cv::Scalar(0,255,0), 4 );
 
 				cv::imshow("result", image.second);
 			}
