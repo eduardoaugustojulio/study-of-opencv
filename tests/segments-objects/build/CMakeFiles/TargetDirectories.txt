@@ -1,3 +1,0 @@
-/home/eduardo/Documents/study-of-opencv/tests/countours/build/CMakeFiles/edit_cache.dir
-/home/eduardo/Documents/study-of-opencv/tests/countours/build/CMakeFiles/segments-objects.dir
-/home/eduardo/Documents/study-of-opencv/tests/countours/build/CMakeFiles/rebuild_cache.dir

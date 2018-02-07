@@ -1,3 +1,0 @@
-/home/eduardo/Documents/study-of-opencv/tests/video/build/CMakeFiles/edit_cache.dir
-/home/eduardo/Documents/study-of-opencv/tests/video/build/CMakeFiles/video.dir
-/home/eduardo/Documents/study-of-opencv/tests/video/build/CMakeFiles/rebuild_cache.dir

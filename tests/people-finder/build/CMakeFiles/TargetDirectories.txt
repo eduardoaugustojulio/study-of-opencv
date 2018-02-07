@@ -1,3 +1,0 @@
-/home/eduardo/Documents/study-of-opencv/tests/people-finder/build/CMakeFiles/edit_cache.dir
-/home/eduardo/Documents/study-of-opencv/tests/people-finder/build/CMakeFiles/find-people.dir
-/home/eduardo/Documents/study-of-opencv/tests/people-finder/build/CMakeFiles/rebuild_cache.dir

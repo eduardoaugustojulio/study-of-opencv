@@ -1,3 +1,0 @@
-/home/eduardo/Documents/study-of-opencv/tests/objects-size/build/CMakeFiles/edit_cache.dir
-/home/eduardo/Documents/study-of-opencv/tests/objects-size/build/CMakeFiles/object-size.dir
-/home/eduardo/Documents/study-of-opencv/tests/objects-size/build/CMakeFiles/rebuild_cache.dir

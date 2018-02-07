@@ -1,3 +1,0 @@
-/home/eduardo/Documents/study-of-opencv/tests/hello_opencv/build/CMakeFiles/edit_cache.dir
-/home/eduardo/Documents/study-of-opencv/tests/hello_opencv/build/CMakeFiles/hello-opencv.dir
-/home/eduardo/Documents/study-of-opencv/tests/hello_opencv/build/CMakeFiles/rebuild_cache.dir

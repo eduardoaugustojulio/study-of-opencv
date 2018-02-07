@@ -1,1 +1,0 @@
-/home/geckos/Documents/study-of-opencv/tests/thresholding/build/CMakeFiles/find-barcode.dir

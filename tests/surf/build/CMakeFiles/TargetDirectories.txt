@@ -1,1 +1,0 @@
-/home/geckos/Documents/study-of-opencv/tests/surf/build/CMakeFiles/surf.dir

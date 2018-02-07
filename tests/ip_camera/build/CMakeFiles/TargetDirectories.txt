@@ -1,1 +1,0 @@
-/home/geckos/Documents/study-of-opencv/tests/ip_camera/build/CMakeFiles/ip-camera.dir
